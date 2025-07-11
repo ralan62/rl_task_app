@@ -15,7 +15,7 @@ class RowText extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(children: [
       Text('App'),
-      SizedBox(height: 64),
+      SizedBox(width: 64),
       Text('Akademie'),
     ]);
   }
