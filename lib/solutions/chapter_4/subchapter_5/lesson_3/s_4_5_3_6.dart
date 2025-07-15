@@ -44,7 +44,7 @@ class Product {
   double price;
   Product(this.name, this.price);
 
-  //@override
+  @override
   String toString() {
     return "$name  $price";
   }
